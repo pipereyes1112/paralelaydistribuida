@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1534737505 source:c:\users\fabia\desktop\nueva carpeta (2)\metro\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1534802736 source:c:\users\alumnos\desktop\nueva carpeta (2)\metro\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1534815487 source:c:\users\fabia\desktop\paralela v2\metro\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
