@@ -1,19 +1,115 @@
 # depslib dependency file v1.0
-1534737505 source:c:\users\fabia\desktop\nueva carpeta (2)\metro\main.cpp
+1535524817 source:c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\main.cpp
 	<iostream>
+	<string.h>
 	<stdlib.h>
 	<stdio.h>
-	<string.h>
+	"Header.h"
 
-1534802736 source:c:\users\alumnos\desktop\nueva carpeta (2)\metro\main.cpp
-	<iostream>
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
+1535506972 c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\header.h
 
-1534815487 source:c:\users\fabia\desktop\paralela v2\metro\main.cpp
+1535522537 source:c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\dijkstra.c
+
+1535522899 source:c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\metro.c
+
+1535525909 source:c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\dijkstra_.cc
 	<iostream>
+	<string.h>
 	<stdlib.h>
 	<stdio.h>
+	"Header.h"
+
+1535522896 source:c:\users\fabia\desktop\nueva carpeta (2)\control 1 pralela(metro)\metro\metro_.cc
+	<iostream>
 	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1535526770 source:c:\users\hp chile\desktop\metro\dijkstra_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"Header.h"
+
+1535506972 c:\users\hp chile\desktop\metro\header.h
+
+1535668918 source:c:\users\hp chile\desktop\metro\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"Header.h"
+
+1535522896 source:c:\users\hp chile\desktop\metro\metro_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1535715915 source:c:\users\fabia\desktop\metro\dijkstra_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	"Header.h"
+
+1535506974 c:\users\fabia\desktop\metro\header.h
+
+1535715952 source:c:\users\fabia\desktop\metro\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	"Header.h"
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	<cstring>
+	"Header.h"
+
+1535707109 source:c:\users\fabia\desktop\metro\metro_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1535709024 source:c:\users\fabia\desktop\metro\front_.cc
+
+1535715915 source:c:\users\hp chile\desktop\utem\computacion paralela\metro\dijkstra_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	"Header.h"
+
+1535506974 c:\users\hp chile\desktop\utem\computacion paralela\metro\header.h
+
+1535709024 source:c:\users\hp chile\desktop\utem\computacion paralela\metro\front_.cc
+
+1535844780 source:c:\users\hp chile\desktop\utem\computacion paralela\metro\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	"Header.h"
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+	<cstring>
+	"Header.h"
+
+1535707109 source:c:\users\hp chile\desktop\utem\computacion paralela\metro\metro_.cc
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
 
