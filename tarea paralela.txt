@@ -1,0 +1,150 @@
+#include <iostream>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+#include <fstream>
+
+
+
+
+using namespace std;
+
+
+int main()
+{
+
+    
+fstream archivo("numeros.txt");
+    
+//fstream archivo2("datos1.txt");
+    
+string linea, aux3,parametro;
+    
+char h[100];
+    
+int i=0,u=0;
+    
+float aux1=0,aux2=0;
+    
+long double sum=0;
+
+
+
+
+    
+//if(!archivo2.is_open())
+       
+// archivo2.open("datos1.txt", ios::out);
+    
+//for(int w=0;w<500;w++)
+     
+cout<<endl;
+
+
+
+
+    
+while(!archivo.eof())
+        
+{
+
+archivo>>h;
+            
+//getline(archivo,linea);
+            
+//cout<<linea[i]<<endl;
+            
+//aux3=linea;
+            
+//char *h = strdup(linea.c_str());
+            
+if(h[1]==','){
+                
+h[1]='.';
+            
+}
+            
+//archivo2<<h<<endl;
+            
+//i++;
+            
+u++;
+            
+sum=sum+atof(h);
+
+        }
+    
+sum=sum/u;
+
+
+
+    
+//archivo2.close();
+    
+archivo.close();
+    
+cout <<"Numero de compilaciones: "<<u<<endl;
+    
+cout <<"promedio: "<<sum<<endl;
+    
+//archivo2.clear();
+    
+/*char *h;
+
+    
+for(int j=0;j<500;j++)
+    
+{
+
+        
+aux3=linea[j];
+        
+char *h = strdup(aux3.c_str());
+
+        
+if(h[1]==','){
+                
+h[1]='.';
+            
+}
+        
+cout <<h;
+
+        
+aux1 = atof (h);
+        
+aux2=aux2+aux1;
+        
+//cout <<"Suma "<<aux2<<endl;
+
+    
+}
+cout<<endl;
+
+
+    
+aux2=aux2/500;
+    
+cout<<"El promedio es: "<<aux2;
+
+
+
+
+    
+/*omp_set_num_threads(4);
+    # pragma omp parallel
+    
+{
+       
+cout << "Hola"<<endl;
+       
+printf("Hello world\n");
+    
+}
+*/
+
+    
+return 0;
+}
